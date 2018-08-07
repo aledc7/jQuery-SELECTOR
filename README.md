@@ -6,8 +6,8 @@
 
 
 ```javascript
-$("#Lastname")
-$(".intro")
+$("#Lastname")   #Selecciona cualquier elemento que tenga el id #Lastname
+$(".intro")     
 $(".intro, #Lastname")
 $("h1")
 $("h1, p")
