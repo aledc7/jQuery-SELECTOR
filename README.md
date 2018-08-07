@@ -75,7 +75,7 @@ by Ale DC
 
 ###### Para entender a fondo, recomiendo esta herramienta Visual de los muchachos de la W3School
 
-[Herramienta Seleccion](https://www.w3schools.com/jquery/trysel.asp?password=password&rr=on&x=16&y=18)
+[Herramienta Seleccion](https://www.w3schools.com/jquery/trysel.asp)
 
 
 
