@@ -1,12 +1,13 @@
-# jQuery-SELECTOR
-###### Resumen de los selectores mas útiles en Jquery.  Recordemos que JQuery comparte los selectores con CSS.
+# jQuery/CSS SELECTOR
+###### Resumen de los selectores mas útiles en Jquery, y su explicación.
+###### Recordemos que JQuery comparte los selectores con CSS.
 
 - [x] Ale DC
 - [x] TFI-UAI
 
 
 ```javascript
-$("#Lastname")   #Selecciona cualquier elemento que tenga el id #Lastname
+$("#Lastname")                # Selecciona cualquier elemento que tenga el id #Lastname
 $(".intro")     
 $(".intro, #Lastname")
 $("h1")
