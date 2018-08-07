@@ -9,17 +9,17 @@
 ```javascript
 $("#Lastname")  ................# Selecciona cualquier elemento que tenga el id #Lastname
 $(".intro")    ................#  Selecciona cualquier elemento con la clase .intro               
-$(".intro, #Lastname")...........#          
-$("h1")................#                         
-$("h1, p")................#                      
-$("p:first")................#              
-$("p:last")................#
-$("tr:even")................#
-$("tr:odd")................#
-$("p:first-child")................#
-$("p:first-of-type")................#
-$("p:last-child")................#
-$("p:last-of-type")................#
+$(".intro, #Lastname")...........#  Selecciona cualquier elemento con la clase .intro y con el ID #Lastname        
+$("h1")................# Selecciona todos los títulos que sean <h1>                       
+$("h1, p")................# Selecciona todos los títulos que sean <h1> , y también los <p>arrafos                     
+$("p:first")................# Selecciona el primer párrafo que encuentre              
+$("p:last")................# Selecciona el último párrafo que encuentre
+$("tr:even")................# Selecciona las filas pares en una tabla
+$("tr:odd")................# Selecciona las filas impares en una tabla
+$("p:first-child")................# selecciona todos los primeros parrafos que sean el primer hijo de sus padres.
+$("p:first-of-type")................# selecciona a todos los primeros del mismo tipo, en este caso de parrafos.(can be others)
+$("p:last-child")................# a la inversa que los dos anteriores, este selecciónará el último parrafo hijo
+$("p:last-of-type")................# lo mismo que first-of-type pero el último.
 $("li:nth-child(1)")................#
 $("li:nth-last-child(1)")................#
 $("li:nth-of-type(2)")................#
