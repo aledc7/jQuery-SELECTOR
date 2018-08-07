@@ -20,24 +20,24 @@ $("p:first-child")................# selecciona todos los primeros parrafos que s
 $("p:first-of-type")................# selecciona a todos los primeros del mismo tipo, en este caso de parrafos.(can be others)
 $("p:last-child")................# a la inversa que los dos anteriores, este selecciónará el último parrafo hijo
 $("p:last-of-type")................# lo mismo que first-of-type pero el último.
-$("li:nth-child(1)")................#
-$("li:nth-last-child(1)")................#
-$("li:nth-of-type(2)")................#
-$("li:nth-last-of-type(2)")................#
-$("b:only-child")................#
-$("h3:only-of-type")................#
-$("div > p")................#
-$("div p")................#
-$("ul + p")................#
-$("ul ~ table")................#
-$("ul li:eq(0)")................#
-$("ul li:gt(0)")................#
-$("ul li:lt(2)")................#
-$(":header")................#
-$(":header:not(h1)")................#
-$(":animated")................#
-$(":focus")................#
-$(":contains(Duck)")................#
+$("li:nth-child(1)")................# Selecciona el primer elementos de cada lista que encuentre
+$("li:nth-last-child(1)")................# Selecciona el ultimo elemento de cada lista que encuentre
+$("li:nth-of-type(2)")................# Selecciona el segundo elemento de cada lista que encuentre
+$("li:nth-last-of-type(2)")................# Selecciona el Anteúltimo elemento de cada lista que encuentre
+$("b:only-child")................# todos los elementos que estén en negrita y sean el unico hijo del padre.
+$("h3:only-of-type")................# todos los elementos de clase <h3> que sean el unico elemento h3 de su padre
+$("div > p")................# Selecciona todos los <P>arrafos que estén dentro de algun DIV y sean hijos directos
+$("div p")................# Similar al anterior, nada mas que pueden no ser hijos directos.
+$("ul + p")................# Selecciona todos los Parrafos que estén al lado de un elemento Lista
+$("ul ~ table")................# Selecciona todas las tablas que tengan una lista ul dentro.
+$("ul li:eq(0)")................# Selecciona un elemento de una lista, por el índice, el indice arranca en cero.
+$("ul li:gt(0)")................# Selecciona todos los elementos de una lista que sean mayor que cero
+$("ul li:lt(2)")................# Selecciona todos los elementos de una lista con un indice menor que 2
+$(":header")................# Selecciona los elementos considerados heders, que son <h1> y <h2>
+$(":header:not(h1)")................# Igual que el anterior, selecciona todos los headers pero no selecciona los <h1>
+$(":animated")................# PENDIENTE
+$(":focus")................# Selecciona el input en donde esté parpadeando el cursor
+$(":contains(Duck)")................# Seleccionará cualquier elemento que contenga el texto Duck, sea o no un ID.
 $("div:has(p)")................#
 $(":empty")................#
 $(":parent")................#
