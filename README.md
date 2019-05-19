@@ -1,4 +1,7 @@
 # jQuery/CSS SELECTOR
+
+[<img src="https://github.com/aledc7/PHP-Certification/blob/master/aledc-logo.png?raw=true">](https://aledc.com)
+
 ###### Resumen de los selectores mas útiles en Jquery, y su explicación.
 ###### Recordemos que JQuery comparte los selectores con CSS.
 
